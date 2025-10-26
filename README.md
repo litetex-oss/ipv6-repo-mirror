@@ -5,3 +5,4 @@ Mirrors repos to a platform that has IPv6 support because [GitHub still has not]
 | --- | --- | --- |
 | [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | [ohmyzsh](https://codeberg.org/litetex/ohmyzsh) | https://github.com/ohmyzsh/ohmyzsh/issues/12609 |
 | [testflows/testflows-github-hetzner-runners](https://github.com/testflows/testflows-github-hetzner-runners) | [testflows-github-hetzner-runners](https://codeberg.org/litetex/testflows-github-hetzner-runners) | |
+| [openphish/public_feed](https://github.com/openphish/public_feed) | [openphish-public_feed](https://codeberg.org/litetex/openphish-public_feed) | |
