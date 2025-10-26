@@ -17,6 +17,8 @@ jobs:
             target: testflows-github-hetzner-runners
           - source: openphish/public_feed
             target: openphish-public_feed
+          - source: disposable-email-domains/disposable-email-domains
+            target: disposable-email-domains
     steps:
       - run: |
           git clone --bare https://github.com/${{ matrix.source }}.git --single-branch
