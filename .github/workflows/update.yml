@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
+        fail-fast: false
         include:
           - source: ohmyzsh/ohmyzsh
             target: ohmyzsh
