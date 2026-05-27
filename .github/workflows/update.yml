@@ -8,9 +8,11 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    continue-on-error: true
     strategy:
+      fail-fast: false
+      max-parallel: 2
       matrix:
-        fail-fast: false
         include:
           - source: ohmyzsh/ohmyzsh
             target: ohmyzsh
